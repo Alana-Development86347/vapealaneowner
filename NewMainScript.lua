@@ -15,7 +15,7 @@ end
 if isfile('vape/MainScript.lua') then 
 	loadfile('vape/MainScript.lua')()
 else 
-	local mainscript = game.HttpGet('https://raw.githubusercontent.com/SystemXVoid/Render/source/packages/MainScript.lua') 
+	local mainscript = game.HttpGet('https://raw.githubusercontent.com/Alana-Development86347/vapealaneowner/main/Render/source/packages/MainScript.lua') 
 	task.spawn(function() loadstring(mainscript)() end)
 	writefile('vape/MainScript.lua', mainscript)
 end

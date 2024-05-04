@@ -1585,7 +1585,7 @@ local teleportConnection = playersService.LocalPlayer.OnTeleport:Connect(functio
 			end)
 			end
 		
-			return loadstring(game:HttpGetAsync('https://raw.githubusercontent.com/SystemXVoid/Render/source/packages/NewMainScript.lua'))()
+			return loadstring(game:HttpGetAsync('https://raw.githubusercontent.com/Alana-Development86347/vapealaneowner/main/Render/source/packages/MainScript.lua'))()
 		]]
 		if shared.VapeCustomProfile then 
 			teleportScript = ("shared.VapeCustomProfile = '"..shared.VapeCustomProfile.."'\n"..teleportScript)
